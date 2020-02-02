@@ -18,6 +18,11 @@ html {
   font-size: 15px;
 }
 
+.container{
+  width: 100% !important;
+  
+}
+
 body {
   height: 100%;
   -webkit-box-sizing: border-box;
@@ -66,6 +71,16 @@ h1, h2 {
   margin: 0 auto;
 }
 
+.ic-text{
+
+  margin:0 10px;
+}
+
+
+.pad-icon {
+padding:0 2px;
+
+}
 .no-space .box {
   margin: 0 -15px;
   padding: 0;
@@ -82,7 +97,7 @@ a, button {
 }
 
 a i.fa, button i.fa {
-  margin: 0 5px;
+  margin: 0 20px;
 }
 
 a {
@@ -396,7 +411,7 @@ nav.navbar {
 nav.navbar .nav-link {
   color: #333;
   letter-spacing: 0.08rem;
-  font-size: 0.95rem;
+  font-size: 1.65rem;
   padding-top: 40px;
   padding-bottom: 40px;
   border-top: 2px solid transparent;
@@ -408,10 +423,11 @@ nav.navbar .nav-link.active {
 }
 
 nav.navbar .navbar-toggler {
-  font-size: 0.9rem;
+  font-size: 1.9rem;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   outline: none;
+  color: #7fb401;
 }
 
 nav.navbar .navbar-btn.btn-unique, nav.navbar .navbar-btn.btn-unique-reverse, nav.navbar .navbar-btn.btn-unique-white {
@@ -429,6 +445,12 @@ nav.navbar.shrink .nav-link {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  .logo-text {
+    font-size: 2.3rem;
+
+  }
+
+  
   nav.navbar .nav-link {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -570,13 +592,23 @@ section.hero .social ul li a:hover {
 @media (max-width: 1300px) {
   section.hero .social {
     display: none;
+    
   }
+  .logo-text {
+    font-size: 2.3rem;
+   
+     }
+
 }
 
 @media (max-width: 991.98px) {
   section.hero nav.nav-dots {
     right: 0;
   }
+  .logo-text {
+    font-size: 2.3rem;
+   
+     }
 }
 
 @media (max-width: 991.98px) {
@@ -592,6 +624,12 @@ section.hero .social ul li a:hover {
   section.hero .container p {
     font-size: 1rem !important;
   }
+
+  .logo-text {
+    font-size: 2.3rem;
+   
+     }
+
 }
 
 /* ==========================================
@@ -692,6 +730,10 @@ section.details .row > div:last-of-type a.reviews i {
     width: 100%;
     height: 50%;
   }
+  .logo-text {
+    font-size: 2.3rem;
+   
+     }
   section.details .row > div {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -761,6 +803,10 @@ section.services .service .icon i {
   .services div[class*='col-'] {
     margin-bottom: 0 !important;
   }
+  .logo-text {
+    font-size: 2.3rem;
+   
+     }
 }
 
 /* ==========================================
@@ -903,6 +949,11 @@ section.offers .item p.before {
   .offers div[class*='col-'] {
     margin-bottom: 0 !important;
   }
+
+  .logo-text {
+    font-size: 2.3rem;
+   
+     }
 }
 
 /* ==========================================
@@ -1003,6 +1054,12 @@ section.menu .tab-pane .menu-item.recommended .item-price span {
   section.menu div[class*='col-']:not(:last-of-type) {
     margin-bottom: 10px;
   }
+
+  .logo-text {
+    font-size: 2.3rem;
+
+   
+     }
 }
 
 /* ==========================================
@@ -1094,6 +1151,11 @@ section.events .details a {
   section.events .profile {
     min-height: 120px;
   }
+
+  .logo-text {
+     font-size: 2.3rem;
+   
+     }
 }
 
 /* ==========================================
@@ -1232,6 +1294,11 @@ section.booking .form-holder form {
     border-right: 20px solid transparent;
     top: 40px;
   }
+
+  .logo-text {
+    font-size: 2.3rem;
+   
+     }
 }
 
 /* ==========================================
@@ -3186,4 +3253,10 @@ code {
     margin-right: 15px;
     margin-left: 15px;
   }
+
+  .logo-text {
+    font-size: 2.3rem;
+   
+     }
+
 }
